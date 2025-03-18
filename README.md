@@ -6,8 +6,8 @@ import requests
 def get_fun_fact(_):
     clear()
     
-    # Add custom CSS styling
-    put_html("""
+# Add custom CSS styling
+ put_html("""
     <style>
         body {
             background-color: #f4f4f4;
@@ -42,18 +42,18 @@ def get_fun_fact(_):
     </style>
     """)
 
-    put_html('<div class="fact-container">')
+ put_html('<div class="fact-container">')
     
-    # API request
-    url = "https://uselessfacts.jsph.pl/random.json?language=en"
+ # API request
+url = "https://uselessfacts.jsph.pl/random.json?language=en"
     response = requests.get(url)
     data = json.loads(response.text)
     
-    useless_fact = data['text']
+ useless_fact = data['text']
     
-    put_html(f'<p class="fun-fact">{useless_fact}</p>')
+put_html(f'<p class="fun-fact">{useless_fact}</p>')
     
-    put_buttons(
+ put_buttons(
         [dict(label='Click me', value='outline-success', color='outline-success')],
         onclick=get_fun_fact
     )
