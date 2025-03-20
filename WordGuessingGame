@@ -1,0 +1,33 @@
+import random
+def word_guessing_game():
+
+    words = ['python', 'java', 'ruby', 'javascript', 'html', 'css', 'swift', 'kotlin', 'go', 'rust']
+
+    word_to_guess = random.choice(words)
+
+    print("Welcome to the Word Guessing Game!")
+    print("I have selected a word from the following list:")
+    print(words)
+    print("You have 3 attempts to guess the word!")
+
+    attempts = 0
+    while attempts < 3:
+        guess = input("\nEnter your guess: ").lower()  # Get user input and convert to lowercase
+        attempts += 1
+        if guess == word_to_guess:
+            print("BRAVO! You guessed the word correctly.")
+            break
+        else:
+            if attempts == 1:
+                print("TRY AGAIN.")
+                # Provide a hint - first letter of the word
+                print(f"Hint: The word starts with '{word_to_guess[0]}'.")
+            elif attempts == 2:
+                print("NO.")
+            else:
+                print(f"Oops! The correct word was '{word_to_guess}'.")
+                break
+
+
+# Call the game function
+word_guessing_game()
