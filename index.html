@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Budget Planner</h1>
+    </header>
+    <main>
+        <section id="start-section">
+            <button id="start-plan-btn">Start Plan</button>
+        </section>
+        <section id="income-expenses-section" style="display:none;">
+            <label for="monthly-income">Monthly Income:</label>
+            <input type="number" id="monthly-income" placeholder="Enter your monthly income" required />
+            <label for="monthly-expenses">Monthly Expenses:</label>
+            <input type="number" id="monthly-expenses" placeholder="Enter your monthly expenses" required />
+        </section>
+        <section id="budget-section" style="display:none;">
+            <form id="budget-form">
+                <input type="text" id="name" placeholder="Item name" required />
+                <input type="number" id="amount" placeholder="Amount" required />
+                <button type="submit">Add Item</button>
+            </form>
+            <ul id="budget-list"></ul>
+            <div id="savings-display">
+                <h3>Monthly Savings: $<span id="monthly-savings">0.00</span></h3>
+            </div>
+        </section>
+    </main>
+    <script src="/static/script.js"></script>
+</body>
+</html>
