@@ -5,7 +5,7 @@ st.markdown("# Simple Chat Bot")
 st.sidebar.markdown("# Chat Bot Page")
 
 # Configure API key
-GOOGLE_API_KEY = "YOUR_AOI_KEY" #any API OF YOUR OWN
+GOOGLE_API_KEY = "YOUR_API_KEY" #any API OF YOUR OWN
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Choose a supported model
