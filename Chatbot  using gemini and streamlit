@@ -1,0 +1,31 @@
+import streamlit as st
+import google.generativeai as genai
+
+st.markdown("# Simple Chat Bot")
+st.sidebar.markdown("# Chat Bot Page")
+
+# Configure API key
+GOOGLE_API_KEY = "AIzaSyDAKWHxoI9wBrTeXOjGHmSNBvI6HKBTcAM" #any API OF YOUR OWN
+genai.configure(api_key=GOOGLE_API_KEY)
+
+# Choose a supported model
+model = genai.GenerativeModel("gemini-1.5-flash")
+
+if 'chat_history' not in st.session_state:
+    st.session_state['chat_history'] = []
+
+st.header("Gemini Chat Bot")
+
+input_text = st.text_input("Input:", key="input")
+submit = st.button("Get Instant Answer")
+
+if submit and input_text:
+    response = model.generate_content(input_text)
+    st.session_state['chat_history'].append(("You", input_text))
+    st.session_state['chat_history'].append(("Bot", response.text))
+    st.subheader("The Response is")
+    st.write(response.text)
+
+st.subheader("Chat History")
+for role, msg in st.session_state['chat_history']:
+    st.write(f"**{role}**: {msg}")
