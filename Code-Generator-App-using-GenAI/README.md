@@ -38,6 +38,8 @@ cd code-generator-gemini
 Ensure Python 3.9 or higher is installed.
 
 pip install -r requirements.txt
+
+
 3. Set Your Gemini API Key
 Open the main script (e.g., code_generator_app.py) and replace:
 
