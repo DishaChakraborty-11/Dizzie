@@ -1,19 +1,23 @@
-💡About Me
-I’m Disha Chakraborty, a final-year B.Tech (CSE-AI&ML) student passionate about software development, AI, and building tech that matters.
+💡 About Me
+I’m Disha Chakraborty, a final-year B.Tech (CSE – AI & ML) student, passionate about software development, AI, and building technology that creates real impact.
+
 I specialize in:
-> AI/ML pipelines, deep learning, and NLP
-> Web development using Flask, Streamlit, React (learning)
-> Integrating LLMs like Gemini & OpenAI with real-world apps
 
-🔗 https://www.linkedin.com/in/disha-chakraborty-283465291/ 📧 chakrabortydisha809@gmail.com
+🧠 AI/ML pipelines, deep learning, and NLP
+🌐 Full stack web development using Flask, Streamlit, and React (learning)
+🤖 Integrating LLMs like Gemini and OpenAI into real-world applications
 
-🌟 How to Use
-Each folder contains:
-                Code with comments
-                Dependencies in requirements.txt (if applicable)
-                Instructions to run locally
+🔗 https://www.linkedin.com/in/disha-chakraborty-283465291/
+📧 chakrabortydisha809@gmail.com
 
-Contributions & feedback are always welcome!
+🌟 How to Use This Repository
+Each project folder includes:
+
+✅ Well-commented code
+📦 A requirements.txt file with dependencies (if applicable)
+🧪 Instructions to run the project locally
+💬 Feedback, suggestions, and collaborations are always welcome!
 
 📜 License
-This repository is under the MIT License – use freely with credit.
+This repository is licensed under the MIT License — feel free to use or modify the work with appropriate credit.
+
