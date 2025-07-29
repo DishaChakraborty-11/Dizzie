@@ -5,7 +5,9 @@ I’m Disha Chakraborty, a final-year B.Tech (CSE – AI & ML) student, passiona
 I specialize in:
 
 🧠 AI/ML pipelines, deep learning, and NLP
+
 🌐 Full stack web development using Flask, Streamlit, and React (learning)
+
 🤖 Integrating LLMs like Gemini and OpenAI into real-world applications
 
 🔗 https://www.linkedin.com/in/disha-chakraborty-283465291/
@@ -16,8 +18,11 @@ I specialize in:
 Each project folder includes:
 
 ✅ Well-commented code
+
 📦 A requirements.txt file with dependencies (if applicable)
+
 🧪 Instructions to run the project locally
+
 💬 Feedback, suggestions, and collaborations are always welcome!
 
 📜 License
