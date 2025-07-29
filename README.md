@@ -12,6 +12,7 @@ I specialize in:
 📧 chakrabortydisha809@gmail.com
 
 🌟 How to Use This Repository
+
 Each project folder includes:
 
 ✅ Well-commented code
@@ -20,5 +21,6 @@ Each project folder includes:
 💬 Feedback, suggestions, and collaborations are always welcome!
 
 📜 License
+
 This repository is licensed under the MIT License — feel free to use or modify the work with appropriate credit.
 
